@@ -66,3 +66,9 @@ footer {
 .copyright{
 	font-size:0.75em;
 }
+
+ @media (max-width: 576px) {
+      .text-xs-center {
+              text-align: center;
+       } 
+    }
