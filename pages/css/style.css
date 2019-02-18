@@ -1,0 +1,74 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Open+Sans|Abel|Rajdhani|Share');
+
+body {
+	font-family:"open sans" ;
+	font-size:1em;
+	letter-spacing: -0.5px;
+	
+}
+
+h1 {
+	font-family:"Rajdhani";
+	color:#142b33;
+	margin-top:5px;
+	letter-spacing: -2px;
+	font-size:2em;
+}
+
+h2 {
+	font-family:"Share";
+	font-weight:bold;
+	color:#142b33;
+}
+
+h3 {
+	font-family:"Share";
+	font-weight:bold;
+}
+
+.fondhead {
+	background-color:#F0F0F0;
+}
+
+.contact {
+	background-color:cadetblue;
+	border:solid #9FBFBE;
+	color:white;
+	font-family: "open sans";
+}
+
+.contact:hover {
+	background-color:#9FBFBE;
+	border:solid #9FBFBE;
+}
+
+.contact:active {
+	background-color:#7D9D9C!important;
+	border:solid 3px #7D9D9C!important;
+}
+
+.contact:focus {
+	box-shadow: 0px 0px 2px 1px #7D9D9C;
+}
+
+.projet:hover {
+	background-color:#FAFAFA;
+	box-shadow: 0px 0px 2px 1px #F0F0F0;
+}
+
+footer {
+	padding:10px;
+	color:grey;
+	
+}
+
+.copyright{
+	font-size:0.75em;
+}
+
+ @media (max-width: 576px) {
+      .text-xs-center {
+              text-align: center;
+       } 
+    }
