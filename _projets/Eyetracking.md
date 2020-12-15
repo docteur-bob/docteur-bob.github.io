@@ -3,6 +3,7 @@ layout: projet
 prev-titre: L'adaptation saccadique
 prev-description: Pourquoi nos mouvements des yeux sont si précis ? Lors de mon mémoire de fin d'études, j'ai étudé un des systèmes qui permettent à notre vision d'être précise tout au long de la vie.
 image: eyetracking.jpg
+url: "https://docteur-bob.github.io/book/projets"
 ---
 # Le cadre du projet
 {:.part-title-prj}
