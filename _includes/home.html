@@ -1,0 +1,37 @@
+<div class="container bloc-presentation">
+    <div class="row">
+      <div class="col-md-5 col-xs-12">
+        <img heigth="500px" class="img-fluid  rounded profilpic" src="{{ site.url }}/assets/img/1.jpg"/>
+      </div>
+      <div class="offset-md-1 col-xs-12 col-md-6 my-auto align-middle">
+        <h1 class="bigname">{{ page.nom }}</h1> 
+        <h1 class="poste">{{ page.poste }}</h1>
+        <p class="description-principale">{{ page.description-principale}}</p>
+        <ul class="list-inline boutonsprincipaux" >
+          <li class="list-inline-item"><a class="btn btn-primary" href="mailto:mehdi.aoussat@gmail.com">E-mail</a></li>
+          <li class="list-inline-item"><a class="btn btn-secondary" target="_blank" href="https://www.linkedin.com/in/mehdi-aoussat/">LinkedIn</a></li>
+          <li class="list-inline-item"><a class="btn btn-secondary" target="_blank" href="{{ site.url }}/assets/file/resume.pdf">CV</a></li>
+        </ul> 
+      </div>
+    </div>
+  </div>
+  <div class="container sectionprojets">
+    <div class="row"> 
+      <div class="col-md-12">
+        <h2 class="titre-projet">Mes projets</h2>
+      </div>
+    </div>
+    {% for projet in site.projets %}
+    <div class="row blocprojet">
+      <div class="col-md-7">
+        <div class="img-container proj-prev-img">
+          <img class="rounded " src="{{ site.url }}/assets/img/{{projet.image}}"/>
+      </div>
+    </div>
+      <div class="col-md-5 my-auto align-middle">
+        <h3 class="proj-prev-titre"><a href="{{ projet.url }}">{{ projet.prev-titre }}</a></h3>
+        <p class="proj-prev-description">{{ projet.prev-description }}</p>  
+      </div>
+    </div>
+    {% endfor %}
+  </div>
